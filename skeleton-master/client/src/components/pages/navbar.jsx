@@ -18,8 +18,7 @@ class NavBar extends Component {
         <div className="st">Start</div>
         <div className="tab">My Resume</div>
         <div className="tab">About</div>  
-        <div><script></script></div>
-        {/* <div className="time"><Clock/></div>  */}
+        <div className="clock">TIME</div>
       </div>
       
       
