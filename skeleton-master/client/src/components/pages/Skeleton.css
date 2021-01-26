@@ -67,6 +67,7 @@ div.st{
 }
 
 div.span{
+    
     width:100%;
     bottom:0px;
     margin-bottom:0;
@@ -94,19 +95,15 @@ div.clock{
     float:right;}
 
 
-figure {
-    
-    text-align:center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    float:left;
-    margin-top:40px;
-
-    margin-left:30px;
-    padding:0px;
-
-    
+.window{
+    display:none;
+    width:100px;
+    background-color: white;
+    height:50px;
 }
-
-figure img {
-    margin:auto;
+button{
+    background-color:#808080;
+    border:0px;
+    margin:0px;
+    padding:0px;
 }

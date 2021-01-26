@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../utilities.css";
-import "./Skeleton.css";
+import "./Desktop.css";
 import linkedInLogo from "./linkedin.png";
 import artInstagram from "./instagram.png";
 import facebook from "./facebook.png";
