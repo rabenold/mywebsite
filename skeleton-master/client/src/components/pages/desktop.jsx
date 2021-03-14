@@ -4,7 +4,8 @@ import "./Desktop.css";
 import linkedInLogo from "./linkedin.png";
 import artInstagram from "./instagram.png";
 import facebook from "./facebook.png";
-
+import gitHub from "./github.png";
+import Window from "./Window.jsx";
 
 
 
@@ -13,7 +14,10 @@ class Desktop extends Component {
   render() {
     return (
       <>
+
+
 <div className="bg">
+  
 
   <div className="icon">
   <figure>
@@ -32,8 +36,6 @@ class Desktop extends Component {
       <figcaption> Instagram </figcaption>
 </figure>
   </div>
-
-
   
   <div className="icon">
   <figure>
@@ -43,6 +45,19 @@ class Desktop extends Component {
       <figcaption> Facebook </figcaption>
 </figure>
   </div>
+
+  
+  <div className="icon">
+  <figure>
+  <a href="https://github.com/rabenold/mywebsite">
+  <img src={gitHub} alt="GitHub" width="80px" height="80px"/>
+      </a>
+      <figcaption> GitHub </figcaption>
+</figure>
+<Window></Window>
+
+  </div>
+
 
 
 

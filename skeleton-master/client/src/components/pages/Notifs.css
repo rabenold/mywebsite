@@ -1,0 +1,21 @@
+.not{
+    width:20%;
+    background-color: grey;
+    border:2px lightgrey solid;
+    height:95%;
+    float:right;
+}
+.panel{
+    width:15%;
+    float:right;
+
+    
+}
+
+.smallBox{
+    width:15%;
+    float:right;
+    height:60px;
+    background-color:lavender;
+    color:black;
+}
