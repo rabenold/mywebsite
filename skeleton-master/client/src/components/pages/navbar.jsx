@@ -22,7 +22,7 @@ class NavBar extends Component {
       <>
       <div className="span">
        <button onclick="openUp()"><div className="st">Start</div></button>
-        <button onclick="openUp()"><div className="tab">My Resume</div></button>
+       <a href="https://github.com/rabenold/AboutMe/blob/de6c9d8a1d268dcf0a26a6d469f5f2ccbf50e000/Elizabeth%20Rabenold%20Resume%20Dec%202020%20(1).pdf"><div className="tab">My Resume</div></a>
         <button onclick="openUp()"><div className="tab">About </div></button>
         <div className="clock">TIME</div>
       </div>

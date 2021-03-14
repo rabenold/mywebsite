@@ -49,6 +49,7 @@ div.tab{
     background-color: #C0C0C0;
     box-shadow: 2px 2px;
     margin-right:3px;
+    
     float:left;}
 
 div.st{
@@ -64,6 +65,7 @@ div.st{
     box-shadow: 2px 2px;
     float:left;
     margin-right:2px;
+    position:absolute;
 }
 
 div.span{
